@@ -1,11 +1,11 @@
 ```mermaid
 flowchart TD
     %% Define Styles
-    classDef user fill:#C8E6C9,stroke:#4CAF50,stroke-width:2px;
-    classDef orchestrator fill:#BBDEFB,stroke:#2196F3,stroke-width:2px;
-    classDef service fill:#D1C4E9,stroke:#673AB7,stroke-width:2px;
-    classDef agent fill:#FFECB3,stroke:#FF9800,stroke-width:2px;
-    classDef external fill:#FFCDD2,stroke:#F44336,stroke-width:2px;
+    classDef user fill:#C8E6C9,stroke:#4CAF50,stroke-width:2px,font-weight:bold,color:black;
+    classDef orchestrator fill:#BBDEFB,stroke:#2196F3,stroke-width:2px,font-weight:bold,color:black;
+    classDef service fill:#D1C4E9,stroke:#673AB7,stroke-width:2px,font-weight:bold,color:black;
+    classDef agent fill:#FFECB3,stroke:#FF9800,stroke-width:2px,font-weight:bold,color:black;
+    classDef external fill:#FFCDD2,stroke:#F44336,stroke-width:2px,font-weight:bold,color:black;
 
     %% User Space
     subgraph User Space
